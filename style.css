@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeefed;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+}
+
+header {
+  background-color: #cbdddc;
+  color: #333;
+  padding: 0.6rem;
+  text-align: center;
+  box-shadow: 0px 0.1875rem 0.3125rem #effff9;
+  font-family: Roboto, sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
+}
+
+h2 {
+  clear: left;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #444;
+  padding: 0;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem;
+  border: 0.125rem #cbdddc solid;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+section {
+  padding: 0.0625rem;
+  margin-left: 0.075rem;
+  margin-top: 0.1875rem;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.about-image-container {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.about-image {
+  width: 14.375rem;
+  height: 18.75rem;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+}
+
+.about-me p {
+  clear: left;
+}
+
+.awards {
+  justify-content: right;
+}
+
+.social-link {
+  color: #333;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+  transform: scale(1.8);
+}
+
+.instagram-link {
+  color: #e1306c;
+}
+
+.github-link {
+  color: #171515;
+}
+
+.linkedin-link {
+  color: #0082ca;
+}
+
+.social-text {
+  margin: 1rem 0;
+  color: #333;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+}
+
+.social-text:hover {
+  color: #555;
+}
+
+.education-image-container {
+  float: left;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+
+.education-image {
+  width: 14.375rem;
+  height: 14.375rem;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+}
+
+.skills-image-container {
+  float: left;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skills-image {
+  width: 14.375rem;
+  height: 14.375rem;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+}
+
+.skills-text {
+  clear: left;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.institute-name {
+  clear: top;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.institute-about {
+  clear: top;
+  font-size: 1rem;
+}
+
+.footer-text {
+  justify-content: left;
+}
