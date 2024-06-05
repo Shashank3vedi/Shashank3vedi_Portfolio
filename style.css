@@ -160,3 +160,43 @@ footer {
 .footer-text {
   justify-content: left;
 }
+
+@media only screen and (max-width: 800px) {
+  header {
+    font-size: 1.2rem;
+  }
+  
+  nav a {
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  .about-image,
+  .education-image,
+  .skills-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about-image-container,
+  .education-image-container,
+  .skills-image-container {
+    margin: 0;
+  }
+  
+  .about-me p {
+    font-size: 0.9rem;
+  }
+  
+  .social-link {
+    font-size: 1.2rem;
+    padding: 0 0.5rem;
+  }
+  
+  .institute-name {
+    font-size: 1.2rem;
+  }
+  
+  .institute-about {
+    font-size: 0.9rem;
+  }
